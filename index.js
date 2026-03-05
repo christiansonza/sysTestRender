@@ -41,7 +41,7 @@ app.use(morgan('dev'))
 app.use(helmet())
 app.use(cookieParser())
 app.use(cors({
-    origin: 'https://sys-test-vercel-ruvo.vercel.app',
+    origin: 'https://https://sysTestVercel.vercel.app',
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
     credentials: true,
 }));
